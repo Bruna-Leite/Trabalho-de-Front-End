@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(181, 254, 173);
+}
+.mulish {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+h1, h2{color:rgb(0, 109, 20);text-align: center; text-decoration: underline;}
+table{border: 4px solid; color: black;}
+tr,th,td{border: 2px solid; color:black;}
+p:first-letter{font-size: 200%;}
+p{ text-indent: 10px;}
+.tres{color:#0152B7}
+.final{font-size:11px;}
+/*
+    !unidades de medida
+    px=pixel
+    ex: 12px - 200px --> tamanhos pequenos
+
+    usamos % --> tamanhos grandes
+    ex:50% em relação ao espaço que pode ocupar (varia)
+
+    VW= largura da tela
+    VH= altura da tela
+
+    REM= tamanho da letra raiz->16px
+    1 REM= 16px
+    :root{fint-size:10}-> faz uma caixa no html e mexe no tamanho dele
+    EM->tamanho de letra pai
+*/
